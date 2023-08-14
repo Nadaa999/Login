@@ -1,0 +1,43 @@
+.background{
+    background-color: #24353f;
+}
+
+h6{
+    color: white;
+}
+
+
+h2{
+color: darkturquoise;
+}
+.ay-haga{
+    background-color: #24353f  !important ;
+    color: white !important;
+}
+
+::placeholder { 
+    color: white !important;
+    opacity: 0.5 !important; 
+}
+
+.ankr{
+
+text-decoration: none;
+color: white;
+
+}
+
+.ankr:hover{
+    text-decoration: underline;
+}
+
+
+.ankr2{
+    text-decoration: none;
+color: white;
+
+}
+
+.shadow{
+    box-shadow: 3px 1px 50px black !important;
+}
