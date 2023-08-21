@@ -53,11 +53,11 @@ function Login(){
 var email=document.getElementById('email').value
 var password=document.getElementById('password').value
 
-
+var loginButton =document.getElementById("loginButton")
 if(search(email)==true&&searchPassword(password)){
 
     searchName(email,password)
-    window.location.href="file:///C:/Users/maadi/Documents/Front%20End%20Diploma/Assignments/Login/pages/page2.html";
+    loginButton.href="pages/page2.html";
     
 
 }
